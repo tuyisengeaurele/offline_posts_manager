@@ -1,0 +1,35 @@
+{
+    "name": "offline_posts_manager",
+    "short_name": "offline_posts_manager",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "This app is called Offline Posts Manager. It uses Flutter for the UI and SQLite through the sqflite package for local data storage. The app allows users to add, read, update, and delete posts even without internet. I separated the code into model, database, screens, and widgets for clean architecture. I also handled database errors using try-catch and protected against invalid data when converting database rows into Post objects.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
